@@ -426,6 +426,14 @@ LAYOUT COMMENTARY
   text-align: left;
 }
 
+.comments .comment:nth-child(2n - 1) {
+  opacity: 0.6;
+}
+
+.comments .comment:nth-child(2n - 1):hover {
+  opacity: 1;
+}
+
 .comment {
   background: #fff;
   display: flex;
@@ -444,4 +452,59 @@ LAYOUT COMMENTARY
   color: var(--primary-01);
   font: 500 1.5rem/ 2rem 'Space Grotesk', sans-serif;
   margin-bottom: var(--space-00);
+}
+
+/* 
+========================================================================================================================================================================
+LAYOUT SHOP
+*/
+
+.shop {
+  background: var(--light-01);
+}
+
+#shop .products.center-content {
+  text-align: left;
+}
+
+#shop .products {
+  display: flex;
+  gap: var(--space-02);
+  margin-top: var(--space-04);
+}
+
+#shop .product {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-02);
+}
+
+#shop .product__img img {
+  max-width: 100%;
+}
+
+#shop .product__description {
+  align-items: center;
+  display: inherit;
+  justify-content: space-between;
+}
+
+#shop .product__description .title {
+  font-size: 32px;
+  line-height: 40px;
+  margin: 0;
+}
+
+#shop .product__description .title::after {
+  left: -46%;
+  /* transform: translateX(0); */
+}
+
+#shop .product__price {
+  font: 700 32px/ 40px 'Roboto', sans-serif;
+  margin-left: 8px;
+}
+
+#shop .list-icon {
+  margin-right: var(--space-01);
 }
