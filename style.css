@@ -226,7 +226,7 @@ header {
   margin-bottom: var(--space-04);
 }
 
-.hero .wrapper :nth-child(1) {
+.wrapper .center-content {
   grid-area: left-content;
   grid-column: left-content/ span right-gutter;
   text-align: center;
@@ -237,7 +237,7 @@ header {
   line-height: 72px;
 }
 
-.hero .title::after {
+.center-content .title::after {
   /* ?? */
   margin-left: 48%;
 }
@@ -380,10 +380,16 @@ LAYOUT CALL TO ACTION
 
 .call-to-action {
   background: var(--gradient);
+  margin-bottom: var(--space-04);
 }
 
 .call-to-action .wrapper .left-content {
   grid-column: left-gutter/ span 2;
+}
+
+.call-to-action .quote__icon {
+  filter: opacity(0.3);
+  top: -32px;
 }
 
 .call-to-action img {
@@ -402,4 +408,40 @@ LAYOUT CALL TO ACTION
   margin-top: var(--space-03);
   text-transform: uppercase;
   visibility: visible;
+}
+
+/* 
+========================================================================================================================================================================
+LAYOUT COMMENTARY
+*/
+
+.commentary .section__headline {
+  margin-bottom: var(--space-03);
+}
+
+.comments {
+  display: flex;
+  gap: var(--space-02);
+  margin-bottom: var(--space-04);
+  text-align: left;
+}
+
+.comment {
+  background: #fff;
+  display: flex;
+  gap: var(--space-02);
+  padding: 1rem;
+}
+
+.comment__img {
+  border-radius: 50%;
+  height: 64px;
+  object-fit: cover;
+  width: 64px;
+}
+
+.comment__name {
+  color: var(--primary-01);
+  font: 500 1.5rem/ 2rem 'Space Grotesk', sans-serif;
+  margin-bottom: var(--space-00);
 }
