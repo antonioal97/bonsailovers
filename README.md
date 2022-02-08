@@ -11,12 +11,12 @@
 </a>
 <a><img src="https://img.shields.io/github/issues/antonioal97/bonsailovers"/></a> <a> <img src="https://img.shields.io/github/stars/antonioal97/bonsailovers"/> </a>
 
+## Landing Page Bonsai Lovers
 </div>
 
-## Projeto Bonsai Lovers
 ### Sumário
 
-- [Projeto Bonsai Lovers](#projeto-bonsai-lovers)
+- [Landing Page Bonsai Lovers](#landing-page-bonsai-lovers)
   - [Sumário](#sumário)
   - [Motivações](#motivações)
   - [Ícones da UI](#ícones-da-ui)
